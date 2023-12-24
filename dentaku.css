@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+#calculator {
+  justify-content: center;
+  margin: 50px;
+}
+
+.container{
+  display: flex;
+  text-align: center;
+}
+
+.input{
+  justify-content: center;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  margin: 1px;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+#equals,.clear{
+  width: 162px;
+}
+
+#display {
+  text-align: right;
+  background-color: black;
+  width: 302px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
